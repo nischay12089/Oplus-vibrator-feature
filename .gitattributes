@@ -1,0 +1,3 @@
+# LF everywhere, whatever core.autocrlf says: apply_template.sh becomes the kit's apply.sh and runs in the
+# phone's toybox sh, which breaks on CRLF; the HAL source and docs are kept LF to match.
+* text=auto eol=lf

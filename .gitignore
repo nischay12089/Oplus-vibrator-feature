@@ -1,0 +1,11 @@
+# Build output: the partition kit, Xiaomi's stock HAL and the OnePlus effect library it carries
+out/
+# Extracted device files, APKs and decompilations - proprietary, never published
+work/
+# Compiled artefacts of the helper tools (rebuilt from their sources)
+tools/**/out/
+tools/**/classes/
+*.class
+*.dex
+__pycache__/
+*.pyc
