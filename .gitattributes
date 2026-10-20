@@ -1,3 +1,6 @@
 # LF everywhere, whatever core.autocrlf says: apply_template.sh becomes the kit's apply.sh and runs in the
 # phone's toybox sh, which breaks on CRLF; the HAL source and docs are kept LF to match.
 * text=auto eol=lf
+# The built kit is stored byte-for-byte, never normalised: apply.sh verifies Xiaomi's stock rc and manifest and
+# the remapped effect_waveform.xml by md5, so a single rewritten line ending would fail the install.
+out/** -text -diff

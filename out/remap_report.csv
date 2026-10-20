@@ -1,0 +1,291 @@
+effect_id,desc,usage,old_waveform,old_duration,new_waveform,new_duration,rule
+9,effect_other_big_scale,TOUCH,13,30,6,38,touch-short-strong
+10,effect_other_small_scale,TOUCH,14,15,7,32,touch-short-weak
+80,effect_ringtone_rm_tune,RINGTONE,162,21551,44,5159,ringtone/alarm (repeats)
+81,effect_ringtone_rm_jingle,RINGTONE,163,1731,42,2131,ringtone/alarm (repeats)
+82,effect_ringtone_rm_itsrm,RINGTONE,161,26157,44,5159,ringtone/alarm (repeats)
+100,effect_ringtone_calm,RINGTONE,140,31014,44,5159,ringtone/alarm (repeats)
+101,effect_ringtone_nostalgic,RINGTONE,134,26328,44,5159,ringtone/alarm (repeats)
+102,effect_ringtone_romance,RINGTONE,137,26098,44,5159,ringtone/alarm (repeats)
+103,effect_ringtone_dream,RINGTONE,139,20018,44,5159,ringtone/alarm (repeats)
+104,effect_ringtone_visions,RINGTONE,136,28260,44,5159,ringtone/alarm (repeats)
+105,effect_ringtone_longing,RINGTONE,124,14015,44,5159,ringtone/alarm (repeats)
+106,effect_ringtone_bliss,RINGTONE,138,26909,44,5159,ringtone/alarm (repeats)
+107,effect_ringtone_delight,RINGTONE,141,20875,44,5159,ringtone/alarm (repeats)
+108,effect_ringtone_classic,RINGTONE,135,1975,42,2131,ringtone/alarm (repeats)
+109,effect_ringtone_playpark,RINGTONE,31,17214,44,5159,ringtone/alarm (repeats)
+110,effect_ringtone_dance,RINGTONE,30,18000,44,5159,ringtone/alarm (repeats)
+111,effect_ringtone_trinkets,RINGTONE,38,18925,44,5159,ringtone/alarm (repeats)
+112,effect_ringtone_firefly,RINGTONE,22,11954,44,5159,ringtone/alarm (repeats)
+113,effect_ringtone_stars,RINGTONE,36,21600,44,5159,ringtone/alarm (repeats)
+114,effect_ringtone_silence,RINGTONE,35,26666,44,5159,ringtone/alarm (repeats)
+115,effect_ringtone_memories,RINGTONE,27,22169,44,5159,ringtone/alarm (repeats)
+116,effect_ringtone_night,RINGTONE,29,9546,44,5159,ringtone/alarm (repeats)
+117,effect_ringtone_lakeside,RINGTONE,25,16172,44,5159,ringtone/alarm (repeats)
+118,effect_ringtone_gazingout,RINGTONE,24,12675,44,5159,ringtone/alarm (repeats)
+119,effect_ringtone_dazzle,RINGTONE,28,17650,44,5159,ringtone/alarm (repeats)
+120,effect_ringtone_relax,RINGTONE,32,8202,44,5159,ringtone/alarm (repeats)
+121,effect_ringtone_childhood,RINGTONE,19,18866,44,5159,ringtone/alarm (repeats)
+122,effect_ringtone_school,RINGTONE,17,10575,44,5159,ringtone/alarm (repeats)
+123,effect_ringtone_commute,RINGTONE,20,26942,44,5159,ringtone/alarm (repeats)
+124,effect_ringtone_summer,RINGTONE,37,15301,44,5159,ringtone/alarm (repeats)
+125,effect_ringtone_fairviews,RINGTONE,121,32571,44,5159,ringtone/alarm (repeats)
+126,effect_ringtone_solitude,RINGTONE,34,27712,44,5159,ringtone/alarm (repeats)
+127,effect_ringtone_pure,RINGTONE,49,10445,44,5159,ringtone/alarm (repeats)
+128,effect_notification_simple,NOTIFICATION,133,1140,170,1088,notification
+129,effect_notification_crystalclear,NOTIFICATION,128,382,370,445,notification
+130,effect_notification_tunes,NOTIFICATION,125,1036,170,1088,notification
+131,effect_notification_emerge,NOTIFICATION,123,822,170,1088,notification
+132,effect_notification_ripples,NOTIFICATION,127,879,170,1088,notification
+133,effect_notification_harp,NOTIFICATION,131,1928,42,2131,notification
+134,effect_notification_overtone,NOTIFICATION,132,830,170,1088,notification
+135,effect_notification_percussion,NOTIFICATION,126,941,170,1088,notification
+136,effect_notification_joy,NOTIFICATION,129,866,170,1088,notification
+137,effect_notification_twinkle,NOTIFICATION,130,1947,42,2131,notification
+139,effect_notification_fun,NOTIFICATION,13,1876,42,2131,notification
+140,effect_notification_receive,NOTIFICATION,15,3958,43,4007,notification
+141,effect_notification_splash,NOTIFICATION,16,2515,41,2790,notification
+144,effect_alarm_weather_wind2,ALARM,142,21100,44,5159,ringtone/alarm (repeats)
+145,effect_alarm_weather_cloudy2,ALARM,143,20900,44,5159,ringtone/alarm (repeats)
+146,effect_alarm_weather_thunderstorm2,ALARM,144,28700,44,5159,ringtone/alarm (repeats)
+147,effect_alarm_weather_default,ALARM,145,30400,44,5159,ringtone/alarm (repeats)
+148,effect_alarm_weather_sunny2,ALARM,146,20900,44,5159,ringtone/alarm (repeats)
+149,effect_alarm_weather_smog2,ALARM,147,17300,44,5159,ringtone/alarm (repeats)
+150,effect_alarm_weather_snow2,ALARM,148,43300,44,5159,ringtone/alarm (repeats)
+151,effect_alarm_weather_rain2,ALARM,149,15000,44,5159,ringtone/alarm (repeats)
+214,effect_notification_allay,NOTIFICATION,237,451,368,479,notification
+215,effect_notification_allusion,NOTIFICATION,238,960,170,1088,notification
+216,effect_notification_amiable,NOTIFICATION,239,1622,42,2131,notification
+217,effect_notification_blare,NOTIFICATION,240,1388,170,1088,notification
+218,effect_notification_blissful,NOTIFICATION,241,2099,42,2131,notification
+219,effect_notification_brisk,NOTIFICATION,242,570,366,580,notification
+220,effect_notification_bubble,NOTIFICATION,243,342,367,407,notification
+221,effect_notification_cheerful,NOTIFICATION,244,544,366,580,notification
+222,effect_notification_clear,NOTIFICATION,245,457,368,479,notification
+223,effect_notification_comely,NOTIFICATION,246,3024,41,2790,notification
+224,effect_notification_cozy,NOTIFICATION,247,2303,42,2131,notification
+225,effect_notification_ding,NOTIFICATION,248,1697,42,2131,notification
+226,effect_notification_effervesce,NOTIFICATION,249,1506,42,2131,notification
+227,effect_notification_elegant,NOTIFICATION,250,1893,42,2131,notification
+228,effect_notification_free,NOTIFICATION,251,1416,170,1088,notification
+229,effect_notification_hallucination,NOTIFICATION,252,1401,170,1088,notification
+230,effect_notification_inbound,NOTIFICATION,253,1583,42,2131,notification
+231,effect_notification_light,NOTIFICATION,254,1100,170,1088,notification
+232,effect_notification_meet,NOTIFICATION,255,871,170,1088,notification
+233,effect_notification_naivety,NOTIFICATION,256,1878,42,2131,notification
+234,effect_notification_quickly,NOTIFICATION,257,612,366,580,notification
+235,effect_notification_rhythm,NOTIFICATION,258,892,170,1088,notification
+236,effect_notification_surprise,NOTIFICATION,259,1067,170,1088,notification
+237,effect_notification_oneplus_twinkle,NOTIFICATION,260,2206,42,2131,notification
+270,effect_other_threefingers_long,TOUCH,171,16,2,36,touch-short
+271,effect_other_threefingers_up,TOUCH,172,16,2,36,touch-short
+272,effect_other_threefingers_screenshot,TOUCH,173,16,2,36,touch-short
+273,effect_other_unfold,TOUCH,174,16,2,36,touch-short
+274,effect_other_close,TOUCH,175,16,2,36,touch-short
+275,effect_other_half_lap,TOUCH,176,35,6,38,touch-short-strong
+276,effect_other_twofingers_down,TOUCH,177,16,2,36,touch-short
+277,effect_other_twofingers_long,TOUCH,178,16,2,36,touch-short
+278,effect_other_compatible_1,TOUCH,179,16,2,36,touch-short
+279,effect_other_compatible_2,TOUCH,180,16,2,36,touch-short
+280,effect_other_styleswitch,TOUCH,181,6699,44,5159,touch-long
+282,effect_other_suspendbutton_bottomout,TOUCH,183,100,122,156,touch-mid
+283,effect_other_suspendbutton_menu,TOUCH,184,16,2,36,touch-short
+284,effect_other_complete,TOUCH,185,16,2,36,touch-short
+285,effect_other_bulb,TOUCH,186,121,363,172,touch-mid
+286,effect_other_elasticity,TOUCH,187,121,363,172,touch-mid
+287,effect_other_styleswitch_soft,TOUCH,188,6699,44,5159,touch-long
+307,effect_ringtone_t_jingle,RINGTONE,231,2112,42,2131,ringtone/alarm (repeats)
+310,effect_artist_notification,NOTIFICATION,150,2733,41,2790,notification
+311,effect_artist_ringtone,RINGTONE,151,20695,44,5159,ringtone/alarm (repeats)
+312,effect_artist_text,RINGTONE,152,4767,45,4569,ringtone/alarm (repeats)
+313,effect_artist_alarm,ALARM,153,15686,44,5159,ringtone/alarm (repeats)
+315,effect_ringtone_pacman,RINGTONE,200,10537,44,5159,ringtone/alarm (repeats)
+316,effect_notification_pacman,NOTIFICATION,199,212,369,355,notification
+317,effect_alarm_pacman,ALARM,198,33409,44,5159,ringtone/alarm (repeats)
+320,effect_ringtone_templesound,RINGTONE,77,28818,44,5159,ringtone/alarm (repeats)
+321,effect_ringtone_dreamjazz,RINGTONE,78,21600,44,5159,ringtone/alarm (repeats)
+322,effect_ringtone_housemusic,RINGTONE,76,19181,44,5159,ringtone/alarm (repeats)
+323,effect_ringtone_eclub,RINGTONE,73,18911,44,5159,ringtone/alarm (repeats)
+324,effect_ringtone_funk,RINGTONE,75,18778,44,5159,ringtone/alarm (repeats)
+325,effect_ringtone_freshmorning,RINGTONE,70,23810,44,5159,ringtone/alarm (repeats)
+326,effect_ringtone_holiday,RINGTONE,74,24970,44,5159,ringtone/alarm (repeats)
+327,effect_ringtone_watercicade,RINGTONE,72,17751,44,5159,ringtone/alarm (repeats)
+328,effect_ringtone_modern,RINGTONE,79,24040,44,5159,ringtone/alarm (repeats)
+329,effect_ringtone_eastern_tranquility,RINGTONE,71,23091,44,5159,ringtone/alarm (repeats)
+330,effect_notification_bowlbell,NOTIFICATION,88,4115,43,4007,notification
+331,effect_notification_rise,NOTIFICATION,81,3044,41,2790,notification
+332,effect_notification_hey,NOTIFICATION,83,3940,43,4007,notification
+333,effect_notification_news,NOTIFICATION,85,3082,41,2790,notification
+334,effect_notification_beating,NOTIFICATION,89,3007,41,2790,notification
+335,effect_notification_short,NOTIFICATION,87,2155,42,2131,notification
+336,effect_notification_top,NOTIFICATION,86,2412,41,2790,notification
+337,effect_notification_circle,NOTIFICATION,80,3648,43,4007,notification
+338,effect_notification_block,NOTIFICATION,82,486,366,580,notification
+339,effect_notification_zanza,NOTIFICATION,84,1460,170,1088,notification
+343,effect_notification_blink,NOTIFICATION,96,331,367,407,notification
+344,effect_notification_whoopdoop,NOTIFICATION,97,436,368,479,notification
+350,effect_telcel_rie,RINGTONE,119,58853,44,5159,ringtone/alarm (repeats)
+351,effect_canyon_call,RINGTONE,90,16417,44,5159,ringtone/alarm (repeats)
+352,effect_mystic_store,RINGTONE,91,2755,41,2790,ringtone/alarm (repeats)
+360,effect_ringtone_rock,RINGTONE,296,37155,44,5159,ringtone/alarm (repeats)
+361,effect_ringtone_in_game_rington,RINGTONE,297,15370,44,5159,ringtone/alarm (repeats)
+363,effect_alarm_wake_up_samurai,ALARM,298,44094,44,5159,ringtone/alarm (repeats)
+364,effect_alarm_in_game_alarm,ALARM,299,21968,44,5159,ringtone/alarm (repeats)
+365,effect_notification_in_game_sms,NOTIFICATION,300,300,369,355,notification
+366,effect_notification_audition,NOTIFICATION,301,301,369,355,notification
+369,effect_notification_jingle_2,NOTIFICATION,320,650,366,580,notification
+370,effect_notification_simple_2,NOTIFICATION,321,108,369,355,notification
+371,effect_notification_crystalclear_2,NOTIFICATION,322,107,369,355,notification
+372,effect_notification_tunes_2,NOTIFICATION,323,235,369,355,notification
+373,effect_notification_emerge_2,NOTIFICATION,324,124,369,355,notification
+374,effect_notification_ripples_2,NOTIFICATION,325,315,369,355,notification
+375,effect_notification_harp_2,NOTIFICATION,326,425,368,479,notification
+376,effect_notification_overtone_2,NOTIFICATION,327,401,370,445,notification
+377,effect_notification_percussion_2,NOTIFICATION,328,194,369,355,notification
+378,effect_notification_joy_2,NOTIFICATION,329,437,368,479,notification
+379,effect_notification_twinkle_2,NOTIFICATION,330,800,170,1088,notification
+380,effect_notification_instant_2,NOTIFICATION,331,662,366,580,notification
+381,effect_notification_fun_2,NOTIFICATION,332,348,367,407,notification
+382,effect_notification_receive_2,NOTIFICATION,333,409,368,479,notification
+383,effect_notification_splash_2,NOTIFICATION,334,822,170,1088,notification
+384,effect_notification_ingenious_2,NOTIFICATION,335,424,368,479,notification
+385,effect_notification_granules_2,NOTIFICATION,336,860,170,1088,notification
+386,effect_notification_bowlbell_2,NOTIFICATION,337,1895,42,2131,notification
+387,effect_notification_rise_2,NOTIFICATION,338,535,366,580,notification
+388,effect_notification_hey_2,NOTIFICATION,339,790,170,1088,notification
+389,effect_notification_news_2,NOTIFICATION,340,1089,170,1088,notification
+390,effect_notification_beating_2,NOTIFICATION,341,661,366,580,notification
+391,effect_notification_short_2,NOTIFICATION,342,1152,170,1088,notification
+392,effect_notification_top_2,NOTIFICATION,343,830,170,1088,notification
+393,effect_notification_round_2,NOTIFICATION,344,1158,170,1088,notification
+394,effect_notification_block_2,NOTIFICATION,345,187,369,355,notification
+395,effect_notification_zanza_2,NOTIFICATION,346,464,368,479,notification
+451,oplus_ringtone_staracross,NOTIFICATION,391,3999,43,4007,notification
+452,oplus_ringtone_fullmoon,NOTIFICATION,392,1754,42,2131,notification
+453,oplus_ringtone_clouds,NOTIFICATION,393,2709,41,2790,notification
+454,oplus_ringtone_wonderland,NOTIFICATION,394,3387,43,4007,notification
+455,oplus_ringtone_still,NOTIFICATION,395,2134,42,2131,notification
+456,oplus_ringtone_haunting,NOTIFICATION,396,2911,41,2790,notification
+457,oplus_ringtone_dragonfly,NOTIFICATION,397,1339,170,1088,notification
+458,oplus_ringtone_dropwater,NOTIFICATION,398,1525,42,2131,notification
+459,oplus_ringtone_fluctuation,NOTIFICATION,399,1337,170,1088,notification
+460,oplus_ringtone_blow,NOTIFICATION,400,1781,42,2131,notification
+461,oplus_ringtone_leaveslight,NOTIFICATION,401,2238,42,2131,notification
+462,oplus_ringtone_warmsun,NOTIFICATION,402,1767,42,2131,notification
+463,oplus_ringtone_snowflake,NOTIFICATION,403,1424,170,1088,notification
+464,oplus_ringtone_crystalclear,NOTIFICATION,404,2185,42,2131,notification
+465,oplus_ringtone_insects,NOTIFICATION,405,1309,170,1088,notification
+466,oplus_ringtone_dew,NOTIFICATION,406,1595,42,2131,notification
+467,oplus_ringtone_shine,NOTIFICATION,407,2189,42,2131,notification
+468,oplus_ringtone_frost,NOTIFICATION,408,2426,41,2790,notification
+469,oplus_ringtone_rainsplash,NOTIFICATION,409,2520,41,2790,notification
+470,oplus_ringtone_raindrop,NOTIFICATION,410,2019,42,2131,notification
+473,game_custom_vibration_crisp,TOUCH,412,442,65,509,game
+474,game_custom_vibration_steps,TOUCH,413,368,63,424,game
+475,game_custom_vibration_weak,TOUCH,414,101,61,206,game
+476,game_custom_vibration_1,TOUCH,415,656,104,750,game
+477,game_custom_vibration_attack,TOUCH,416,377,102,432,game
+478,game_custom_vibration_long,TOUCH,417,6811,44,5159,game
+479,game_custom_vibration_roundabout,TOUCH,418,6347,44,5159,game
+480,game_custom_vibration_2,TOUCH,419,5000,44,5159,game
+481,game_custom_vibration_sport,TOUCH,420,6365,44,5159,game
+482,game_custom_vibration_strong_attack,TOUCH,421,6092,44,5159,game
+483,game_custom_vibration_attack2,TOUCH,422,6533,44,5159,game
+484,game_custom_vibration_microwave_ripples,TOUCH,423,5002,44,5159,game
+485,game_custom_vibration_crisp_long,TOUCH,424,3307,118,3163,game
+486,game_custom_vibration_continuous_steps,TOUCH,425,4072,43,4007,game
+487,game_custom_vibration_strong_rhythm,TOUCH,426,4019,43,4007,game
+488,game_custom_vibration_orderly,TOUCH,427,3120,118,3163,game
+489,game_custom_vibration_strong,TOUCH,411,730,64,787,game
+491,effect_sgame_2nd_normal_kill_crisp,TOUCH,431,740,100,233,game-tier
+492,effect_sgame_2nd_double_kill_crisp,TOUCH,432,1025,101,287,game-tier
+493,effect_sgame_2nd_triple_kill_crisp,TOUCH,433,1025,102,432,game-tier
+494,effect_sgame_2nd_quad_kill_crisp,TOUCH,434,1025,103,609,game-tier
+495,effect_sgame_2nd_penta_kill_crisp,TOUCH,435,1025,104,750,game-tier
+496,effect_sgame_2nd_game_start_crisp,TOUCH,428,2300,69,1019,game-tier
+497,effect_sgame_2nd_game_failed_crisp,TOUCH,429,1520,62,391,game-tier
+498,effect_sgame_2nd_game_victory_crisp,TOUCH,430,1520,68,629,game-tier
+499,effect_alarm_weather_cloudy1,ALARM,322,21100,44,5159,ringtone/alarm (repeats)
+500,effect_alarm_weather_cloudy3,ALARM,323,19800,44,5159,ringtone/alarm (repeats)
+501,effect_alarm_weather_cloudy4,ALARM,324,21400,44,5159,ringtone/alarm (repeats)
+502,effect_alarm_weather_smog1,ALARM,325,16800,44,5159,ringtone/alarm (repeats)
+503,effect_alarm_weather_rain1,ALARM,326,16600,44,5159,ringtone/alarm (repeats)
+504,effect_alarm_weather_snow1,ALARM,327,18300,44,5159,ringtone/alarm (repeats)
+505,effect_alarm_weather_sunny1,ALARM,328,21500,44,5159,ringtone/alarm (repeats)
+506,effect_alarm_weather_sunny3,ALARM,329,40600,44,5159,ringtone/alarm (repeats)
+507,effect_alarm_weather_sunny4,ALARM,330,21000,44,5159,ringtone/alarm (repeats)
+508,effect_alarm_weather_thunderstorm1,ALARM,331,16000,44,5159,ringtone/alarm (repeats)
+509,effect_alarm_weather_thunderstorm3,ALARM,332,15000,44,5159,ringtone/alarm (repeats)
+510,effect_alarm_weather_wind1,ALARM,333,19300,44,5159,ringtone/alarm (repeats)
+511,effect_notification_att_chat_alert,NOTIFICATION,347,1380,170,1088,notification
+512,effect_notification_att_chat_in,NOTIFICATION,348,720,366,580,notification
+513,effect_notification_att_chat_out,NOTIFICATION,349,750,170,1088,notification
+514,effect_notification_att_email_receive,NOTIFICATION,350,2560,41,2790,notification
+515,effect_notification_att_email_send,NOTIFICATION,351,1270,170,1088,notification
+516,effect_ringtone_att_city_lights,RINGTONE,352,20800,44,5159,ringtone/alarm (repeats)
+517,effect_ringtone_att_firefly,RINGTONE,353,23200,44,5159,ringtone/alarm (repeats)
+518,effect_ringtone_att_now_or_never,RINGTONE,354,19400,44,5159,ringtone/alarm (repeats)
+519,effect_sgame_2nd_normal_kill_soft,TOUCH,439,740,100,233,game-tier
+520,effect_sgame_2nd_double_kill_soft,TOUCH,440,1025,101,287,game-tier
+521,effect_sgame_2nd_triple_kill_soft,TOUCH,441,1025,102,432,game-tier
+522,effect_sgame_2nd_quad_kill_soft,TOUCH,442,1025,103,609,game-tier
+523,effect_sgame_2nd_penta_kill_soft,TOUCH,443,1025,104,750,game-tier
+524,effect_sgame_2nd_game_start_soft,TOUCH,436,2300,69,1019,game-tier
+525,effect_sgame_2nd_game_failed_soft,TOUCH,437,1520,62,391,game-tier
+526,effect_sgame_2nd_game_victory_soft,TOUCH,438,1520,68,629,game-tier
+528,effect_ringtone_rm_itsrm_2,RINGTONE,500,26157,44,5159,ringtone/alarm (repeats)
+529,effect_ringtone_rm_tune_2,RINGTONE,501,21551,44,5159,ringtone/alarm (repeats)
+530,effect_ringtone_rm_calm_2,RINGTONE,502,31014,44,5159,ringtone/alarm (repeats)
+531,effect_ringtone_rm_nostalgic_2,RINGTONE,503,26328,44,5159,ringtone/alarm (repeats)
+532,effect_ringtone_rm_romance_2,RINGTONE,504,26098,44,5159,ringtone/alarm (repeats)
+533,effect_ringtone_rm_dream_2,RINGTONE,505,20018,44,5159,ringtone/alarm (repeats)
+534,effect_ringtone_rm_visions_2,RINGTONE,506,28260,44,5159,ringtone/alarm (repeats)
+535,effect_ringtone_rm_longing_2,RINGTONE,507,14015,44,5159,ringtone/alarm (repeats)
+536,effect_ringtone_rm_bliss_2,RINGTONE,508,26909,44,5159,ringtone/alarm (repeats)
+537,effect_ringtone_rm_delight_2,RINGTONE,509,20875,44,5159,ringtone/alarm (repeats)
+538,effect_ringtone_rm_classic_2,RINGTONE,510,1975,42,2131,ringtone/alarm (repeats)
+539,effect_ringtone_rm_playpark_2,RINGTONE,511,17214,44,5159,ringtone/alarm (repeats)
+540,effect_ringtone_rm_dance_2,RINGTONE,512,18000,44,5159,ringtone/alarm (repeats)
+541,effect_ringtone_rm_trinkets_2,RINGTONE,513,18925,44,5159,ringtone/alarm (repeats)
+542,effect_ringtone_rm_firefly_2,RINGTONE,514,11954,44,5159,ringtone/alarm (repeats)
+543,effect_ringtone_rm_stars_2,RINGTONE,515,21600,44,5159,ringtone/alarm (repeats)
+544,effect_ringtone_rm_silence_2,RINGTONE,516,26666,44,5159,ringtone/alarm (repeats)
+545,effect_ringtone_rm_memories_2,RINGTONE,517,22169,44,5159,ringtone/alarm (repeats)
+546,effect_ringtone_rm_night_2,RINGTONE,518,9546,44,5159,ringtone/alarm (repeats)
+547,effect_ringtone_rm_lakeside_2,RINGTONE,519,16172,44,5159,ringtone/alarm (repeats)
+548,effect_ringtone_rm_gazingout_2,RINGTONE,520,12675,44,5159,ringtone/alarm (repeats)
+549,effect_ringtone_rm_dazzle_2,RINGTONE,521,17650,44,5159,ringtone/alarm (repeats)
+550,effect_ringtone_rm_relax_2,RINGTONE,522,8202,44,5159,ringtone/alarm (repeats)
+551,effect_ringtone_rm_childhood_2,RINGTONE,523,18866,44,5159,ringtone/alarm (repeats)
+552,effect_ringtone_rm_school_2,RINGTONE,524,10575,44,5159,ringtone/alarm (repeats)
+553,effect_ringtone_rm_commute_2,RINGTONE,525,26942,44,5159,ringtone/alarm (repeats)
+554,effect_ringtone_rm_summer_2,RINGTONE,526,15301,44,5159,ringtone/alarm (repeats)
+555,effect_ringtone_rm_fairviews_2,RINGTONE,527,32571,44,5159,ringtone/alarm (repeats)
+556,effect_ringtone_rm_solitude_2,RINGTONE,528,27712,44,5159,ringtone/alarm (repeats)
+557,effect_ringtone_rm_pure_2,RINGTONE,529,10445,44,5159,ringtone/alarm (repeats)
+558,effect_ringtone_rm_templesound_2,RINGTONE,530,28818,44,5159,ringtone/alarm (repeats)
+559,effect_ringtone_rm_dreamjazz_2,RINGTONE,531,21600,44,5159,ringtone/alarm (repeats)
+560,effect_ringtone_rm_housemusic_2,RINGTONE,532,19181,44,5159,ringtone/alarm (repeats)
+561,effect_ringtone_rm_eclub_2,RINGTONE,533,18911,44,5159,ringtone/alarm (repeats)
+562,effect_ringtone_rm_funk_2,RINGTONE,534,18778,44,5159,ringtone/alarm (repeats)
+563,effect_ringtone_rm_freshmorning_2,RINGTONE,535,23810,44,5159,ringtone/alarm (repeats)
+564,effect_ringtone_rm_holiday_2,RINGTONE,536,24970,44,5159,ringtone/alarm (repeats)
+565,effect_ringtone_rm_watercicade_2,RINGTONE,537,17751,44,5159,ringtone/alarm (repeats)
+566,effect_ringtone_rm_modern_2,RINGTONE,538,24040,44,5159,ringtone/alarm (repeats)
+567,effect_ringtone_rm_eastern_tranquility_2,RINGTONE,539,23091,44,5159,ringtone/alarm (repeats)
+568,effect_notification_kamisato_ayaka_one,NOTIFICATION,471,984,170,1088,notification
+569,effect_notification_kamisato_ayaka_two,NOTIFICATION,472,1908,42,2131,notification
+570,effect_notification_kamisato_ayaka_three,NOTIFICATION,473,1278,170,1088,notification
+571,effect_sms_kamisato_ayaka_one,NOTIFICATION,474,1212,170,1088,notification
+572,effect_sms_kamisato_ayaka_two,NOTIFICATION,475,3177,41,2790,notification
+573,effect_sms_kamisato_ayaka_three,NOTIFICATION,476,682,366,580,notification
+574,effect_ringtone_kamisato_ayaka_one_one,RINGTONE,477,8059,44,5159,ringtone/alarm (repeats)
+575,effect_ringtone_kamisato_ayaka_one_two,RINGTONE,478,7839,44,5159,ringtone/alarm (repeats)
+576,effect_ringtone_kamisato_ayaka_one_three,RINGTONE,479,60000,44,5159,ringtone/alarm (repeats)
+577,effect_alarm_kamisato_ayaka_one,ALARM,480,13269,44,5159,ringtone/alarm (repeats)
+578,effect_alarm_kamisato_ayaka_two,ALARM,481,5999,44,5159,ringtone/alarm (repeats)
+579,effect_alarm_kamisato_ayaka_three,ALARM,482,2052,42,2131,ringtone/alarm (repeats)
+580,effect_alarm_kamisato_ayaka_four,ALARM,483,58999,44,5159,ringtone/alarm (repeats)
+581,effect_alarm_kamisato_ayaka_five,ALARM,484,10650,44,5159,ringtone/alarm (repeats)
+582,effect_alarm_kamisato_ayaka_six,ALARM,485,9527,44,5159,ringtone/alarm (repeats)
+583,effect_alarm_kamisato_ayaka_seven,ALARM,486,59999,44,5159,ringtone/alarm (repeats)

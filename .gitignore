@@ -1,6 +1,6 @@
-# Build output: the partition kit, Xiaomi's stock HAL and the OnePlus effect library it carries
-out/
-# Extracted device files, APKs and decompilations - proprietary, never published
+# out/ - the built partition kit (HAL binary, effect library, XMLs, apply.sh, flashable zip) - IS tracked, so
+# every commit carries the exact kit built from it. See .gitattributes: it is stored byte-for-byte.
+# Extracted device files, APKs and decompilations (5+ GB) - kept local
 work/
 # Compiled artefacts of the helper tools (rebuilt from their sources)
 tools/**/out/
