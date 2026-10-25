@@ -1,0 +1,408 @@
+[
+  {
+    "ringtone": "ringtone_001",
+    "effect": 100,
+    "waveform": 2000,
+    "duration_ms": 31015,
+    "audio_haptic_samples": 1488720
+  },
+  {
+    "ringtone": "ringtone_002",
+    "effect": 101,
+    "waveform": 2001,
+    "duration_ms": 26329,
+    "audio_haptic_samples": 1263770
+  },
+  {
+    "ringtone": "ringtone_003",
+    "effect": 102,
+    "waveform": 2002,
+    "duration_ms": 26099,
+    "audio_haptic_samples": 1252732
+  },
+  {
+    "ringtone": "ringtone_004",
+    "effect": 103,
+    "waveform": 2003,
+    "duration_ms": 19811,
+    "audio_haptic_samples": 950929
+  },
+  {
+    "ringtone": "ringtone_005",
+    "effect": 104,
+    "waveform": 2004,
+    "duration_ms": 28261,
+    "audio_haptic_samples": 1356509
+  },
+  {
+    "ringtone": "ringtone_006",
+    "effect": 105,
+    "waveform": 2005,
+    "duration_ms": 13604,
+    "audio_haptic_samples": 652978
+  },
+  {
+    "ringtone": "ringtone_007",
+    "effect": 106,
+    "waveform": 2006,
+    "duration_ms": 26909,
+    "audio_haptic_samples": 1291634
+  },
+  {
+    "ringtone": "ringtone_008",
+    "effect": 107,
+    "waveform": 2007,
+    "duration_ms": 20875,
+    "audio_haptic_samples": 1002002
+  },
+  {
+    "ringtone": "ringtone_009",
+    "effect": 108,
+    "waveform": 2008,
+    "duration_ms": 1895,
+    "audio_haptic_samples": 90973
+  },
+  {
+    "ringtone": "ringtone_010",
+    "effect": 109,
+    "waveform": 2009,
+    "duration_ms": 17215,
+    "audio_haptic_samples": 826305
+  },
+  {
+    "ringtone": "ringtone_011",
+    "effect": 110,
+    "waveform": 2010,
+    "duration_ms": 18001,
+    "audio_haptic_samples": 864039
+  },
+  {
+    "ringtone": "ringtone_012",
+    "effect": 111,
+    "waveform": 2011,
+    "duration_ms": 18926,
+    "audio_haptic_samples": 908429
+  },
+  {
+    "ringtone": "ringtone_013",
+    "effect": 112,
+    "waveform": 2012,
+    "duration_ms": 11954,
+    "audio_haptic_samples": 573794
+  },
+  {
+    "ringtone": "ringtone_014",
+    "effect": 113,
+    "waveform": 2013,
+    "duration_ms": 21600,
+    "audio_haptic_samples": 1036801
+  },
+  {
+    "ringtone": "ringtone_015",
+    "effect": 114,
+    "waveform": 2014,
+    "duration_ms": 26667,
+    "audio_haptic_samples": 1280003
+  },
+  {
+    "ringtone": "ringtone_016",
+    "effect": 115,
+    "waveform": 2015,
+    "duration_ms": 22169,
+    "audio_haptic_samples": 1064125
+  },
+  {
+    "ringtone": "ringtone_017",
+    "effect": 116,
+    "waveform": 2016,
+    "duration_ms": 9547,
+    "audio_haptic_samples": 458250
+  },
+  {
+    "ringtone": "ringtone_018",
+    "effect": 117,
+    "waveform": 2017,
+    "duration_ms": 16172,
+    "audio_haptic_samples": 776277
+  },
+  {
+    "ringtone": "ringtone_019",
+    "effect": 118,
+    "waveform": 2018,
+    "duration_ms": 12676,
+    "audio_haptic_samples": 608424
+  },
+  {
+    "ringtone": "ringtone_020",
+    "effect": 119,
+    "waveform": 2019,
+    "duration_ms": 17651,
+    "audio_haptic_samples": 847237
+  },
+  {
+    "ringtone": "ringtone_021",
+    "effect": 120,
+    "waveform": 2020,
+    "duration_ms": 8108,
+    "audio_haptic_samples": 389199
+  },
+  {
+    "ringtone": "ringtone_022",
+    "effect": 121,
+    "waveform": 2021,
+    "duration_ms": 18866,
+    "audio_haptic_samples": 905583
+  },
+  {
+    "ringtone": "ringtone_023",
+    "effect": 122,
+    "waveform": 2022,
+    "duration_ms": 10575,
+    "audio_haptic_samples": 507613
+  },
+  {
+    "ringtone": "ringtone_024",
+    "effect": 123,
+    "waveform": 2023,
+    "duration_ms": 26942,
+    "audio_haptic_samples": 1293221
+  },
+  {
+    "ringtone": "ringtone_025",
+    "effect": 124,
+    "waveform": 2024,
+    "duration_ms": 15301,
+    "audio_haptic_samples": 734466
+  },
+  {
+    "ringtone": "ringtone_026",
+    "effect": 125,
+    "waveform": 2025,
+    "duration_ms": 32571,
+    "audio_haptic_samples": 1563428
+  },
+  {
+    "ringtone": "ringtone_027",
+    "effect": 126,
+    "waveform": 2026,
+    "duration_ms": 27427,
+    "audio_haptic_samples": 1316492
+  },
+  {
+    "ringtone": "ringtone_028",
+    "effect": 127,
+    "waveform": 2027,
+    "duration_ms": 10446,
+    "audio_haptic_samples": 501401
+  },
+  {
+    "ringtone": "ringtone_029",
+    "effect": 320,
+    "waveform": 2028,
+    "duration_ms": 28818,
+    "audio_haptic_samples": 1383270
+  },
+  {
+    "ringtone": "ringtone_030",
+    "effect": 321,
+    "waveform": 2029,
+    "duration_ms": 21600,
+    "audio_haptic_samples": 1036802
+  },
+  {
+    "ringtone": "ringtone_031",
+    "effect": 322,
+    "waveform": 2030,
+    "duration_ms": 19182,
+    "audio_haptic_samples": 920723
+  },
+  {
+    "ringtone": "ringtone_032",
+    "effect": 323,
+    "waveform": 2031,
+    "duration_ms": 18912,
+    "audio_haptic_samples": 907762
+  },
+  {
+    "ringtone": "ringtone_033",
+    "effect": 324,
+    "waveform": 2032,
+    "duration_ms": 18779,
+    "audio_haptic_samples": 901373
+  },
+  {
+    "ringtone": "ringtone_034",
+    "effect": 325,
+    "waveform": 2033,
+    "duration_ms": 23810,
+    "audio_haptic_samples": 1142898
+  },
+  {
+    "ringtone": "ringtone_035",
+    "effect": 326,
+    "waveform": 2034,
+    "duration_ms": 24970,
+    "audio_haptic_samples": 1198575
+  },
+  {
+    "ringtone": "ringtone_036",
+    "effect": 327,
+    "waveform": 2035,
+    "duration_ms": 17752,
+    "audio_haptic_samples": 852077
+  },
+  {
+    "ringtone": "ringtone_037",
+    "effect": 328,
+    "waveform": 2036,
+    "duration_ms": 24041,
+    "audio_haptic_samples": 1153948
+  },
+  {
+    "ringtone": "ringtone_038",
+    "effect": 329,
+    "waveform": 2037,
+    "duration_ms": 23092,
+    "audio_haptic_samples": 1108404
+  },
+  {
+    "ringtone": "ringtone_039",
+    "effect": 431,
+    "waveform": 2038,
+    "duration_ms": 21122,
+    "audio_haptic_samples": 1013864
+  },
+  {
+    "ringtone": "ringtone_040",
+    "effect": 432,
+    "waveform": 2039,
+    "duration_ms": 23130,
+    "audio_haptic_samples": 1110264
+  },
+  {
+    "ringtone": "ringtone_041",
+    "effect": 433,
+    "waveform": 2040,
+    "duration_ms": 6844,
+    "audio_haptic_samples": 328492
+  },
+  {
+    "ringtone": "ringtone_042",
+    "effect": 434,
+    "waveform": 2041,
+    "duration_ms": 13985,
+    "audio_haptic_samples": 671285
+  },
+  {
+    "ringtone": "ringtone_043",
+    "effect": 435,
+    "waveform": 2042,
+    "duration_ms": 24013,
+    "audio_haptic_samples": 1152627
+  },
+  {
+    "ringtone": "ringtone_044",
+    "effect": 436,
+    "waveform": 2043,
+    "duration_ms": 29397,
+    "audio_haptic_samples": 1411033
+  },
+  {
+    "ringtone": "ringtone_045",
+    "effect": 437,
+    "waveform": 2044,
+    "duration_ms": 16000,
+    "audio_haptic_samples": 767998
+  },
+  {
+    "ringtone": "ringtone_046",
+    "effect": 438,
+    "waveform": 2045,
+    "duration_ms": 24550,
+    "audio_haptic_samples": 1178378
+  },
+  {
+    "ringtone": "ringtone_047",
+    "effect": 439,
+    "waveform": 2046,
+    "duration_ms": 9190,
+    "audio_haptic_samples": 441129
+  },
+  {
+    "ringtone": "ringtone_048",
+    "effect": 440,
+    "waveform": 2047,
+    "duration_ms": 13648,
+    "audio_haptic_samples": 655094
+  },
+  {
+    "ringtone": "ringtone_049",
+    "effect": 441,
+    "waveform": 2048,
+    "duration_ms": 21549,
+    "audio_haptic_samples": 1034361
+  },
+  {
+    "ringtone": "ringtone_050",
+    "effect": 442,
+    "waveform": 2049,
+    "duration_ms": 27135,
+    "audio_haptic_samples": 1302464
+  },
+  {
+    "ringtone": "ringtone_051",
+    "effect": 443,
+    "waveform": 2050,
+    "duration_ms": 19483,
+    "audio_haptic_samples": 935189
+  },
+  {
+    "ringtone": "ringtone_052",
+    "effect": 444,
+    "waveform": 2051,
+    "duration_ms": 26618,
+    "audio_haptic_samples": 1277677
+  },
+  {
+    "ringtone": "ringtone_053",
+    "effect": 445,
+    "waveform": 2052,
+    "duration_ms": 17068,
+    "audio_haptic_samples": 819285
+  },
+  {
+    "ringtone": "ringtone_054",
+    "effect": 446,
+    "waveform": 2053,
+    "duration_ms": 22841,
+    "audio_haptic_samples": 1096371
+  },
+  {
+    "ringtone": "ringtone_055",
+    "effect": 447,
+    "waveform": 2054,
+    "duration_ms": 17098,
+    "audio_haptic_samples": 820724
+  },
+  {
+    "ringtone": "ringtone_056",
+    "effect": 448,
+    "waveform": 2055,
+    "duration_ms": 22387,
+    "audio_haptic_samples": 1074575
+  },
+  {
+    "ringtone": "ringtone_057",
+    "effect": 449,
+    "waveform": 2056,
+    "duration_ms": 23047,
+    "audio_haptic_samples": 1106268
+  },
+  {
+    "ringtone": "ringtone_058",
+    "effect": 450,
+    "waveform": 2057,
+    "duration_ms": 28838,
+    "audio_haptic_samples": 1384231
+  }
+]

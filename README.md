@@ -1,5 +1,10 @@
 # O-Haptics bridge — POCO F7 (onyx) running an OxygenOS port
 
+The complete **ColorOS** update is [OHaptics_onyx_ColorOS.zip](out/coloros_release/OHaptics_onyx_ColorOS.zip).
+It combines 58 ringtone tracks, 46 notification tracks, the navigation hold feature and a dedicated Circle to
+Search waveform reduced by 15%, keeping the working HAL and other strength settings. See
+[ColorOS integration instructions](COLOROS_INTEGRATION.md). The original OxygenOS kit below is retained as the base.
+
 OnePlus O-Haptics (touch haptics, soft/default touch style, intensity, ringtone sync, RichTap HE) on the POCO's Xiaomi
 vibrator HAL. It ships as partition content (odm + my_product): nothing is patched, neither the framework nor
 Xiaomi's HAL. **Install: see

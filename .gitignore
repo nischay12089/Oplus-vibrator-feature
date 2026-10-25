@@ -9,3 +9,12 @@ tools/**/classes/
 *.dex
 __pycache__/
 *.pyc
+# Superseded partial installers and intermediate builds stay local.
+# The consolidated, approved kit is tracked in out/coloros_release/.
+/out/coloros/
+/out/CTS_hold_enable/
+/out/CTS_hold_enable.zip
+/out/ColorOS_haptic_sync_fix/
+/out/ColorOS_haptic_sync_fix*.zip
+/out/ColorOS_message_tone_sync/
+/out/ColorOS_message_tone_sync.zip

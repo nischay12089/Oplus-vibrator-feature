@@ -92,6 +92,10 @@ def parse_args():
     p.add_argument("--track-src-f0", type=float, default=125.7,
                    help="carrier the OnePlus haptic tracks were authored for (median spectral centroid)")
     p.add_argument("--no-track-retune", action="store_true", help="keep ringtone tracks at their original carrier")
+    p.add_argument("--dedicated-track-ids", action="store_true",
+                   help="give each decoded ringtone its own waveform, including ROMs whose current XML shares fallback ids")
+    p.add_argument("--retune-waveform", type=int, action="append", default=[],
+                   help="also retune this UI waveform beyond retune-max-ms, preserving its timing and peak")
     p.add_argument("--no-retune-library", action="store_true",
                    help="keep the OnePlus library at its authored carrier instead of moving each effect's "
                         "energy onto this motor's f0")
@@ -299,6 +303,32 @@ def load_ringtone_tracks(xml_text, track_dir, shift_hz):
     return tracks
 
 
+def dedicated_track_ids(xml_text, track_dir):
+    """Keep framework effect ids/names, but never reuse a generic fallback for synced audio."""
+    names = {fn[:-4] for fn in os.listdir(track_dir) if fn.endswith(".s16")}
+    taken = {int(v) for v in re.findall(r'waveform_id="(\d+)"', xml_text)}
+    effects = {}
+    next_id = 2000
+    for name, effect in re.findall(r'<ringtone_effect ringtone_name="([^"]+)" effect_id="(\d+)"', xml_text):
+        if name not in names:
+            continue
+        if effect in effects:
+            raise ValueError("multiple decoded ringtones share effect id " + effect)
+        while next_id in taken:
+            next_id += 1
+        effects[effect] = next_id
+        taken.add(next_id)
+        next_id += 1
+
+    def replace(m):
+        tag = m.group(0)
+        attrs = dict(re.findall(r'(\w+)="([^"]*)"', tag))
+        if attrs.get("effect_id") in effects:
+            tag = re.sub(r'waveform_id="\d+"', 'waveform_id="%d"' % effects[attrs["effect_id"]], tag)
+        return tag
+    return re.sub(r"<effect [^>]*/>", replace, xml_text)
+
+
 def nearest(pool, lib, dur):
     dur = max(dur, 1)
     return min((w for w in pool if w in lib), key=lambda w: abs(math.log(max(pcm_ms(lib[w]), 1) / dur)))
@@ -420,7 +450,7 @@ def main():
         resynth = 0
         for d in (lib_def, lib_soft):
             for wf in list(d):
-                if pcm_ms(d[wf]) > a.retune_max_ms:
+                if pcm_ms(d[wf]) > a.retune_max_ms and wf not in a.retune_waveform:
                     continue                      # long patterns stay as OnePlus authored them
                 resynth += len(d[wf]) < RATE * a.min_cycles / a.f0
                 d[wf] = retune_effect(d[wf], a.f0, a.min_cycles)
@@ -431,6 +461,8 @@ def main():
               % (a.retune_max_ms, a.f0, before[len(before) // 2], after[len(after) // 2], resynth, a.min_cycles))
 
     xml_text = open(a.xml, encoding="utf-8").read()
+    if a.dedicated_track_ids:
+        xml_text = dedicated_track_ids(xml_text, a.haptic_tracks)
     shift = 0.0 if a.no_track_retune else a.f0 - a.track_src_f0
     tracks = load_ringtone_tracks(xml_text, a.haptic_tracks, shift)
     clash = sorted(set(tracks) & (set(lib_def) | {AOSP_TEXTURE_TICK}))
@@ -501,7 +533,8 @@ def main():
         sys.exit("BUG: still unresolved waveform ids %s" % missing)
     write(os.path.join(rom, "my_product", "etc", "vibrator", "effect_waveform.xml"), fixed.encode("utf-8"))
     with open(os.path.join(out, "remap_report.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(report[0].keys()))
+        w = csv.DictWriter(f, fieldnames=["effect_id", "desc", "usage", "old_waveform", "old_duration",
+                                        "new_waveform", "new_duration", "rule"])
         w.writeheader()
         w.writerows(report)
     print("effect_waveform.xml: %d entries remapped, all %d referenced waveform ids resolve"

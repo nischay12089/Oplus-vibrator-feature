@@ -33,11 +33,14 @@ odm/bin/hw/vendor.xiaomi.hardware.vibratorfeature.stock odm/lib64/libohaptics_ri
 odm/etc/vintf/manifest/vibrator-default.xml"
 EW_REL=my_product/etc/vibrator/effect_waveform.xml
 EW_BASE_MD5=@EW_BASE_MD5@
+EW_BASE_MD5S="@EW_BASE_MD5@"
 EW_NEW_MD5=@EW_NEW_MD5@
 FEAT_REL=my_product/etc/permissions/oplus.product.feature_multimedia_unique.xml
 FEATA_REL=my_product/etc/permissions/oplus.feature.android.xml
 LUXUN='    <oplus-feature name="oplus.software.vibrator_luxunvibrator" />'
 LUXUN_GREP='name="oplus.software.vibrator_luxunvibrator"'
+HOLD='    <oplus-feature name="oplus.software.vibrator.long_press_home_wave_support" />'
+HOLD_GREP='name="oplus.software.vibrator.long_press_home_wave_support"'
 SCALE_PROP=@SCALE_PROP@
 BK=ohaptics_backup
 
@@ -126,6 +129,8 @@ verify() {  # prints one line per item, returns 1 if anything is not in the expe
     st $? "my_product feature xml without oplus.software.audio.haptic_channel_support"
     grep -q -F "$LUXUN_GREP" "$MP/$FEATA_REL"
     st $? "my_product oplus.feature.android.xml with vibrator_luxunvibrator"
+    grep -q -F "$HOLD_GREP" "$MP/$FEATA_REL"
+    st $? "my_product feature enables the continuous navigation hold effect"
     return $VERIFY_FAILED
 }
 
@@ -173,7 +178,9 @@ for m in $STOCK_MD5 $OLD_PATCHED_MD5S $SVC_MD5; do [ "$NOW" = "$m" ] && known=1;
 grep -q -F "$SVC_MARKER" "$P/$SVC_REL" 2>/dev/null && known=1   # an earlier build of this HAL
 [ $known = 1 ] || die "$SVC_REL md5 $NOW is not the Xiaomi HAL this kit was built for ($STOCK_MD5)"
 EW_NOW=$(sum "$MP/$EW_REL")
-[ "$EW_NOW" = "$EW_BASE_MD5" ] || [ "$EW_NOW" = "$EW_NEW_MD5" ] || [ "$FORCE" = 1 ] || \
+ew_known=0
+for m in $EW_BASE_MD5S $EW_NEW_MD5; do [ "$EW_NOW" = "$m" ] && ew_known=1; done
+[ "$ew_known" = 1 ] || [ "$FORCE" = 1 ] || \
     die "$EW_REL differs from the one the remap was built from (run with FORCE=1 to replace it anyway)"
 [ -f "$MP/$FEAT_REL" ] || die "$FEAT_REL not found"
 [ -f "$MP/$FEATA_REL" ] || die "$FEATA_REL not found"
@@ -214,6 +221,7 @@ drop_line "$MP/$FEAT_REL" "oplus.software.audio.haptic_channel_support"
 # OnePlus gates the power-key/lock haptic, the long-press effect and every COUI widget haptic
 # (sliders, seekbars, pickers, switches) behind this feature. Ports often drop the line.
 add_feature "$MP/$FEATA_REL" "$LUXUN" "$LUXUN_GREP" "</oplus-config>"
+add_feature "$MP/$FEATA_REL" "$HOLD" "$HOLD_GREP" "</oplus-config>"
 
 echo "removed $removed Xiaomi RTP effects; verifying $P ($MP):"
 if verify; then

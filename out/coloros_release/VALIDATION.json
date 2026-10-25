@@ -1,0 +1,16 @@
+{
+  "kit_id": "fb7bc8ea",
+  "cts_rms_ratio": 0.8495055494298794,
+  "cts_peak_before": 86,
+  "cts_peak_after": 73,
+  "cts_samples": 14400,
+  "zero_crossings_preserved": true,
+  "shared_ui_waveform_unchanged": true,
+  "other_ui_waveforms_unchanged": true,
+  "hal_unchanged": true,
+  "installer_checks": 11,
+  "repeat_apply": "pass",
+  "check_mode": "pass",
+  "stock_revert": "pass",
+  "real_device_feel": "requires confirmation after flashing"
+}

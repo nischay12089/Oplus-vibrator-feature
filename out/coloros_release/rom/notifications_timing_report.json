@@ -1,0 +1,416 @@
+[
+  {
+    "tone": "notification_001",
+    "effect_id": 128,
+    "waveform_id": 800,
+    "duration_ms": 1141,
+    "raw_haptic_frames": 54762,
+    "pcm_samples": 27381,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_002",
+    "effect_id": 129,
+    "waveform_id": 801,
+    "duration_ms": 382,
+    "raw_haptic_frames": 18357,
+    "pcm_samples": 9179,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_003",
+    "effect_id": 130,
+    "waveform_id": 802,
+    "duration_ms": 1036,
+    "raw_haptic_frames": 49740,
+    "pcm_samples": 24870,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_004",
+    "effect_id": 131,
+    "waveform_id": 803,
+    "duration_ms": 920,
+    "raw_haptic_frames": 44140,
+    "pcm_samples": 22070,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_005",
+    "effect_id": 132,
+    "waveform_id": 804,
+    "duration_ms": 879,
+    "raw_haptic_frames": 42205,
+    "pcm_samples": 21103,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_006",
+    "effect_id": 133,
+    "waveform_id": 805,
+    "duration_ms": 1928,
+    "raw_haptic_frames": 92564,
+    "pcm_samples": 46282,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_007",
+    "effect_id": 134,
+    "waveform_id": 806,
+    "duration_ms": 830,
+    "raw_haptic_frames": 39849,
+    "pcm_samples": 19925,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_008",
+    "effect_id": 135,
+    "waveform_id": 807,
+    "duration_ms": 813,
+    "raw_haptic_frames": 39021,
+    "pcm_samples": 19511,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_009",
+    "effect_id": 136,
+    "waveform_id": 808,
+    "duration_ms": 867,
+    "raw_haptic_frames": 41593,
+    "pcm_samples": 20797,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_010",
+    "effect_id": 137,
+    "waveform_id": 809,
+    "duration_ms": 1376,
+    "raw_haptic_frames": 66070,
+    "pcm_samples": 33035,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_011",
+    "effect_id": 138,
+    "waveform_id": 810,
+    "duration_ms": 1045,
+    "raw_haptic_frames": 50143,
+    "pcm_samples": 25072,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_012",
+    "effect_id": 139,
+    "waveform_id": 811,
+    "duration_ms": 1748,
+    "raw_haptic_frames": 83910,
+    "pcm_samples": 41955,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_013",
+    "effect_id": 140,
+    "waveform_id": 812,
+    "duration_ms": 3058,
+    "raw_haptic_frames": 146767,
+    "pcm_samples": 73384,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_014",
+    "effect_id": 141,
+    "waveform_id": 813,
+    "duration_ms": 2511,
+    "raw_haptic_frames": 120506,
+    "pcm_samples": 60253,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_015",
+    "effect_id": 142,
+    "waveform_id": 814,
+    "duration_ms": 858,
+    "raw_haptic_frames": 41172,
+    "pcm_samples": 20586,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_016",
+    "effect_id": 143,
+    "waveform_id": 815,
+    "duration_ms": 2385,
+    "raw_haptic_frames": 114490,
+    "pcm_samples": 57245,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_017",
+    "effect_id": 330,
+    "waveform_id": 816,
+    "duration_ms": 4116,
+    "raw_haptic_frames": 197561,
+    "pcm_samples": 98781,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_018",
+    "effect_id": 331,
+    "waveform_id": 817,
+    "duration_ms": 3045,
+    "raw_haptic_frames": 146143,
+    "pcm_samples": 73072,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_019",
+    "effect_id": 332,
+    "waveform_id": 818,
+    "duration_ms": 3939,
+    "raw_haptic_frames": 189073,
+    "pcm_samples": 94537,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_020",
+    "effect_id": 333,
+    "waveform_id": 819,
+    "duration_ms": 3083,
+    "raw_haptic_frames": 147965,
+    "pcm_samples": 73983,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_021",
+    "effect_id": 334,
+    "waveform_id": 820,
+    "duration_ms": 3008,
+    "raw_haptic_frames": 144373,
+    "pcm_samples": 72187,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_022",
+    "effect_id": 335,
+    "waveform_id": 821,
+    "duration_ms": 2155,
+    "raw_haptic_frames": 103453,
+    "pcm_samples": 51727,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_023",
+    "effect_id": 336,
+    "waveform_id": 822,
+    "duration_ms": 2412,
+    "raw_haptic_frames": 115776,
+    "pcm_samples": 57888,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_024",
+    "effect_id": 337,
+    "waveform_id": 823,
+    "duration_ms": 3648,
+    "raw_haptic_frames": 175126,
+    "pcm_samples": 87563,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_025",
+    "effect_id": 338,
+    "waveform_id": 824,
+    "duration_ms": 436,
+    "raw_haptic_frames": 20930,
+    "pcm_samples": 10465,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_026",
+    "effect_id": 339,
+    "waveform_id": 825,
+    "duration_ms": 1460,
+    "raw_haptic_frames": 70079,
+    "pcm_samples": 35040,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_027",
+    "effect_id": 451,
+    "waveform_id": 826,
+    "duration_ms": 4000,
+    "raw_haptic_frames": 191998,
+    "pcm_samples": 95999,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_028",
+    "effect_id": 452,
+    "waveform_id": 827,
+    "duration_ms": 1755,
+    "raw_haptic_frames": 84239,
+    "pcm_samples": 42120,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_029",
+    "effect_id": 453,
+    "waveform_id": 828,
+    "duration_ms": 2710,
+    "raw_haptic_frames": 130070,
+    "pcm_samples": 65035,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_030",
+    "effect_id": 454,
+    "waveform_id": 829,
+    "duration_ms": 3388,
+    "raw_haptic_frames": 162621,
+    "pcm_samples": 81311,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_031",
+    "effect_id": 455,
+    "waveform_id": 830,
+    "duration_ms": 2135,
+    "raw_haptic_frames": 102458,
+    "pcm_samples": 51229,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_032",
+    "effect_id": 456,
+    "waveform_id": 831,
+    "duration_ms": 2912,
+    "raw_haptic_frames": 139767,
+    "pcm_samples": 69884,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_033",
+    "effect_id": 457,
+    "waveform_id": 832,
+    "duration_ms": 1339,
+    "raw_haptic_frames": 64276,
+    "pcm_samples": 32138,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_034",
+    "effect_id": 458,
+    "waveform_id": 833,
+    "duration_ms": 1525,
+    "raw_haptic_frames": 73207,
+    "pcm_samples": 36604,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_035",
+    "effect_id": 459,
+    "waveform_id": 834,
+    "duration_ms": 1338,
+    "raw_haptic_frames": 64219,
+    "pcm_samples": 32110,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_036",
+    "effect_id": 460,
+    "waveform_id": 835,
+    "duration_ms": 1782,
+    "raw_haptic_frames": 85515,
+    "pcm_samples": 42758,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_037",
+    "effect_id": 461,
+    "waveform_id": 836,
+    "duration_ms": 2239,
+    "raw_haptic_frames": 107458,
+    "pcm_samples": 53729,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_038",
+    "effect_id": 462,
+    "waveform_id": 837,
+    "duration_ms": 1767,
+    "raw_haptic_frames": 84835,
+    "pcm_samples": 42418,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_039",
+    "effect_id": 463,
+    "waveform_id": 838,
+    "duration_ms": 1425,
+    "raw_haptic_frames": 68382,
+    "pcm_samples": 34191,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_040",
+    "effect_id": 464,
+    "waveform_id": 839,
+    "duration_ms": 2185,
+    "raw_haptic_frames": 104897,
+    "pcm_samples": 52449,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_041",
+    "effect_id": 465,
+    "waveform_id": 840,
+    "duration_ms": 1310,
+    "raw_haptic_frames": 62856,
+    "pcm_samples": 31428,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_042",
+    "effect_id": 466,
+    "waveform_id": 841,
+    "duration_ms": 1595,
+    "raw_haptic_frames": 76569,
+    "pcm_samples": 38285,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_043",
+    "effect_id": 467,
+    "waveform_id": 842,
+    "duration_ms": 2189,
+    "raw_haptic_frames": 105076,
+    "pcm_samples": 52538,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_044",
+    "effect_id": 468,
+    "waveform_id": 843,
+    "duration_ms": 2427,
+    "raw_haptic_frames": 116476,
+    "pcm_samples": 58238,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_045",
+    "effect_id": 469,
+    "waveform_id": 844,
+    "duration_ms": 2521,
+    "raw_haptic_frames": 121006,
+    "pcm_samples": 60503,
+    "gain": 0.6
+  },
+  {
+    "tone": "notification_046",
+    "effect_id": 470,
+    "waveform_id": 845,
+    "duration_ms": 2020,
+    "raw_haptic_frames": 96950,
+    "pcm_samples": 48475,
+    "gain": 0.6
+  }
+]
