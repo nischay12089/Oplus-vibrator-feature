@@ -1,5 +1,10 @@
 # O-Haptics bridge — POCO F7 (onyx) running an OxygenOS port
 
+For the **K13 Turbo Pro base PLE110_16.0.10.600(CN01)**, use
+[OHaptics_onyx_K13_Turbo_Pro.zip](out/k13_release/OHaptics_onyx_K13_Turbo_Pro.zip) and the
+[K13 integration instructions](K13_INTEGRATION.md). This profile restores the missing ODM waveforms and
+aligns the existing tone tracks to the K13 audio durations while preserving the working HAL and UI tuning.
+
 The complete **ColorOS** update is [OHaptics_onyx_ColorOS.zip](out/coloros_release/OHaptics_onyx_ColorOS.zip).
 It combines 58 ringtone tracks, 46 notification tracks, the navigation hold feature and a dedicated Circle to
 Search waveform reduced by 15%, keeping the working HAL and other strength settings. See

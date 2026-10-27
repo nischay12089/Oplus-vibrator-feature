@@ -1,0 +1,20 @@
+{
+  "kit_id": "65a399db",
+  "device_base": "PLE110_16.0.10.600(CN01)",
+  "installed_rtp_before": 176,
+  "installed_rtp_after": 281,
+  "live_library_hashes": "281/281",
+  "hal_unchanged": true,
+  "cts_framework_gesture": "finished: effect 527, waveform 900, requested 650ms",
+  "direct_cts_playback_ms": 600,
+  "direct_notification_004_ms": 400,
+  "installer_checks": 11,
+  "repeat_apply": "pass",
+  "stock_revert": "pass",
+  "undeclared_haptic_channel_guard": "pass",
+  "tone_lengths_verified": 104,
+  "ui_waveforms_unchanged": true,
+  "temporary_live_mount": true,
+  "persistence": "requires repacking and flashing odm + my_product",
+  "tone_matching_limit": "Existing authored tracks reused; all K13 source audio has no embedded haptic channels."
+}

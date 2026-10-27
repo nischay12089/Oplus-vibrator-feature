@@ -1,0 +1,9 @@
+K13 Turbo Pro base support for POCO F7 (onyx), PLE110_16.0.10.600(CN01).
+
+Diagnosis: the framework table already referenced the complete patched library, but ODM still contained only 176 old waveforms. The 105 ringtone/notification/CTS additions were missing. This kit restores the complete matching 281-file library with the exact existing working HAL (4cd70c8825f3168889f6a725f9cc2566), stock Xiaomi init rc/manifest, and unchanged UI, Gentle, RichTap and 15%-reduced CTS tuning.
+
+K13 stores ordinary 44.1 kHz tones under /my_product/res/audio with no embedded haptic channels. Existing authored tracks are reused at the same tempo and strength, with total lengths trimmed/silence-padded to those tone files (58 ringtones, 46 notifications). No right audio channel is treated as motor data. The extraction helper now rejects undeclared haptic channels. These are adapted existing tracks, not factory-authored K13 haptic channels; melody-specific feel and real message/call alignment still require confirmation.
+
+Live verification on the connected phone: all 281 library hashes match; direct CTS returns 600 ms; notification_004 returns 400 ms; SystemUI sends effect 527 → waveform 900 and the hold completes normally. The installed HAL binary is unchanged. Full on-phone fixture install, 11 checks, repeat install and stock rollback passed.
+
+The live repair uses a temporary /dev-backed firmware overlay and clears on reboot. For persistence, extract OHaptics_onyx_K13_Turbo_Pro.zip into a fresh folder, run apply.sh against the CURRENT unpacked K13 project, require all 11 [ok] checks, and repack/flash BOTH odm.img and my_product.img. Reboot to load the updated framework duration table. See K13_INTEGRATION.md or the instructions inside the zip.

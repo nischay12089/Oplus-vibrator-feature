@@ -1,0 +1,13 @@
+{
+  "kit_id": "65a399db",
+  "device_base": "PLE110_16.0.10.600(CN01)",
+  "hal_md5": "4cd70c8825f3168889f6a725f9cc2566",
+  "xml_md5": "140ed6cd642911ca297e36cd6210c87e",
+  "firmware_files": 281,
+  "ringtones": 58,
+  "notifications": 46,
+  "cts_gain": 0.85,
+  "cts_waveform": 900,
+  "audio_source": "ordinary K13 audio, no embedded haptic channels",
+  "haptic_source": "existing authored tracks; unchanged tempo; trim/silence padding to K13 file duration"
+}

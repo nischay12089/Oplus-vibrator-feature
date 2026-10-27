@@ -37,6 +37,10 @@ public class HapticExtract {
         int channels = fmt.getInteger(MediaFormat.KEY_CHANNEL_COUNT);
         int rate = fmt.getInteger(MediaFormat.KEY_SAMPLE_RATE);
         int haptic = fmt.containsKey("haptic-channel-count") ? fmt.getInteger("haptic-channel-count") : 0;
+        if (haptic <= 0 || haptic >= channels) {
+            ex.release();
+            throw new IllegalArgumentException("no declared haptic channel: " + path);
+        }
 
         MediaCodec codec = MediaCodec.createDecoderByType(fmt.getString(MediaFormat.KEY_MIME));
         codec.configure(fmt, null, null, 0);
@@ -83,8 +87,8 @@ public class HapticExtract {
             ob.order(ByteOrder.LITTLE_ENDIAN);
             ob.position(info.offset);
             int n = info.size / (2 * outChannels);
-            // haptic channels are the last ones; with no tag, assume the last channel
-            int hapticCount = haptic > 0 ? haptic : 1;
+            // Only declared haptic channels are motor data. Ordinary stereo is not.
+            int hapticCount = haptic;
             for (int f = 0; f < n; f++) {
                 for (int c = 0; c < outChannels; c++) {
                     short s = ob.getShort();
