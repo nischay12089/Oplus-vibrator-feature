@@ -91,8 +91,3 @@ by AAC's HED engine with native loop/interval. `tools/hebridge/XmExtTest.java` c
 end-of-stream `write()`) and new `play()`/`perform()` calls wait for the stream; the service stops a running pattern with
 Xiaomi's quick off (`setAmplitudeExt(_, 2)`) before taps, the framework's `off()` and new patterns.
 
-## Not covered
-
-* RichTap `performRtp`, ext-prebaked effect ids (played as a transient) and live `performHeParam` updates of a pattern
-  that is already playing (see ROM_INTEGRATION.md §10).
-* `my_product/etc/vibrator/effect2waveform.xml` is not read by either jar, so it was left untouched.
